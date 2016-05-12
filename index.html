@@ -46,6 +46,105 @@
                     </ul>
                 </section>
                 <section>
+                    <section>
+                        <h2>Command</h2>
+                        <ul>
+                            <li>Operators</li>
+                            <li>Motions</li>
+                        </ul>
+                    </section>
+                    <section style="font-size:30px">
+                        <h2>Operators</h2>
+                        <div class="partition-row">
+                            <div class="partition-md">
+                                <p>yy</p>
+                            </div>
+                            <div class="partition-md">
+                                <p>Copies the entire line.</p>
+                            </div>
+                        </div>
+                        <div class="partition-row">
+                            <div class="partition-md">
+                                <p>p</p>
+                            </div>
+                            <div class="partition-md">
+                                <p>Pastes content after the cursor</p>
+                            </div>
+                        </div>
+                        <div class="partition-row">
+                            <div class="partition-md">
+                                <p>i</p>
+                            </div>
+                            <div class="partition-md">
+                                <p>Puts you into INSERT mode before the cursor</p>
+                            </div>
+                        </div>
+                        <div class="partition-row">
+                            <div class="partition-md">
+                                <p>f</p>
+                            </div>
+                            <div class="partition-md">
+                                <p>Finds specified character to the right of current cursor</p>
+                            </div>
+                        </div>
+                        <div class="partition-row">
+                            <div class="partition-md">
+                                <p>dd</p>
+                            </div>
+                            <div class="partition-md">
+                                <p>Deletes the current line</p>
+                            </div>
+                        </div>
+                        <div class="partition-row">
+                            <div class="partition-md">
+                                <p>o</p>
+                            </div>
+                            <div class="partition-md">
+                                <p>Moves cursor to the next line</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>Motions</h2>
+                        <div class="partition-row">
+                            <div class="partition-md">
+                                <p>0</p>
+                            </div>
+                            <div class="partition-md">
+                                <p>Moves cursor to start of line</p>
+                            </div>
+                        </div>
+                        <div class="partition-row">
+                            <div class="partition-md">
+                                <p>w</p>
+                            </div>
+                            <div class="partition-md">
+                                <p>Moves cursor to start of next word</p>
+                            </div>
+                        </div>
+                        <div class="partition-row">
+                            <div class="partition-md">
+                                <p>gg</p>
+                            </div>
+                            <div class="partition-md">
+                                <p>Moves cursor to start of buffer</p>
+                            </div>
+                        </div>
+                        <div class="partition-row">
+                            <div class="partition-md">
+                                <p>G</p>
+                            </div>
+                            <div class="partition-md">
+                                <p>Moves cursor to end of buffer</p>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <h2>Commands structure</h2>
+                    <h3>[count] {operator} {[count] motion}</h3>
+                </section>
+                <section>
                     <h2>Normal mode example commands</h2>
                     <ul>
                         <li>'dfa' : delete until the next 'a'</li>
