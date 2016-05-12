@@ -1,0 +1,15 @@
+For working between tags replace the " with a t, as in cit. Or dit to delete
+between tags and remain in command mode.
+As you may already know, you can do ci[, ci{, or ci( to work between
+matched square or curly brackets, or parentheses. These commands also work
+with the closing character, so you can do ci], ci}, or ci).
+For working between tags replace the " with a t, as in cit. Or dit to delete
+between tags and remain in command mode.
+As you may already know, you can do ci[, ci{, or ci( to work between
+matched square or curly brackets, or parentheses. These commands also work
+with the closing character, so you can do ci], ci}, or ci).
+For working between tags replace the " with a t, as in cit. Or dit to delete
+between tags and remain in command mode.
+As you may already know, you can do ci[, ci{, or ci( to work between
+matched square or curly brackets, or parentheses. These commands also work
+with the closing character, so you can do ci], ci}, or ci).
