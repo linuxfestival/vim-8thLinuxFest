@@ -2,6 +2,14 @@
     <head>
         <link rel="stylesheet" href="css/reveal.css">
         <link rel="stylesheet" href="css/theme/black.css">
+        <style type="text/css">
+            textarea{
+                font-size: 30px;
+                width:1100px;
+                height:400px;
+                word-break: normal;
+            }
+        </style>
     </head>
     <body>
         <div class="reveal">
@@ -105,83 +113,80 @@
                         </div>
                     </section>
                     <section>
-                        <textarea row="10"></textarea>
-                        <section>
-                            <section>
-                                <h2>Motions</h2>
-                                <div class="partition-row">
-                                    <div class="partition-md">
-                                        <p>0</p>
-                                    </div>
-                                    <div class="partition-md">
-                                        <p>Moves cursor to start of line</p>
-                                    </div>
-                                </div>
-                                <div class="partition-row">
-                                    <div class="partition-md">
-                                        <p>w</p>
-                                    </div>
-                                    <div class="partition-md">
-                                        <p>Moves cursor to start of next word</p>
-                                    </div>
-                                </div>
-                                <div class="partition-row">
-                                    <div class="partition-md">
-                                        <p>gg</p>
-                                    </div>
-                                    <div class="partition-md">
-                                        <p>Moves cursor to start of buffer</p>
-                                    </div>
-                                </div>
-                                <div class="partition-row">
-                                    <div class="partition-md">
-                                        <p>G</p>
-                                    </div>
-                                    <div class="partition-md">
-                                        <p>Moves cursor to end of buffer</p>
-                                    </div>
-                                </div>
-                            </section>
-                        </section>
-                        <section>
-                            <h2>Commands structure</h2>
-                            <h3>[count] {operator} {[count] motion}</h3>
-                        </section>
-                        <section>
-                            <h2>Normal mode example commands</h2>
-                            <ul>
-                                <li>'dfa' : delete until the next 'a'</li>
-                                <li>'5j' : go down 5 lines</li>
-                                <li>'d5j' : delete 5 lines below</li>
-                                <li>':5' : goto line 5</li>
-                            </ul>
-                        </section>
-                        <section>
-                            <h2>Scenarios</h2>
-                            <ul>
-                                <li>Implementing functions in C header file</li>
-                                <li>Getting output from command and inserting into file</li>
-                                <li>Working with tags in html</li>
-                                <li>Doing inline calculation</li>
-                            </ul>
-                        </section>
-                    </div>
-                </div>
-                <script src="js/vim.js"></script>
-                <script type="text/javascript">
-                    vim.open({
-                        debug : true,
-                        showMsg: function(msg){
-                            alert('msg:' + msg);
-                        }
-                    });
-                </script>
-                <script src="js/reveal.js"></script>
-                <script>
-                    Reveal.initialize({
-                        controls: true,
-                        slideNumber: true
-                    });
-                </script>
-            </body>
-        </html>
+                        <h2>Motions</h2>
+                        <div class="partition-row">
+                            <div class="partition-md">
+                                <p>0</p>
+                            </div>
+                            <div class="partition-md">
+                                <p>Moves cursor to start of line</p>
+                            </div>
+                        </div>
+                        <div class="partition-row">
+                            <div class="partition-md">
+                                <p>w</p>
+                            </div>
+                            <div class="partition-md">
+                                <p>Moves cursor to start of next word</p>
+                            </div>
+                        </div>
+                        <div class="partition-row">
+                            <div class="partition-md">
+                                <p>gg</p>
+                            </div>
+                            <div class="partition-md">
+                                <p>Moves cursor to start of buffer</p>
+                            </div>
+                        </div>
+                        <div class="partition-row">
+                            <div class="partition-md">
+                                <p>G</p>
+                            </div>
+                            <div class="partition-md">
+                                <p>Moves cursor to end of buffer</p>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <h2>Commands structure</h2>
+                    <h3>[count] {operator} {[count] motion}</h3>
+                </section>
+                <section>
+                    <h2>Normal mode example commands</h2>
+                    <ul>
+                        <li>'dfa' : delete until the next 'a'</li>
+                        <li>'5j' : go down 5 lines</li>
+                        <li>'d5j' : delete 5 lines below</li>
+                        <li>':5' : goto line 5</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Scenarios</h2>
+                    <ul>
+                        <li>Implementing functions in C header file</li>
+                        <li>Getting output from command and inserting into file</li>
+                        <li>Working with tags in html</li>
+                        <li>Doing inline calculation</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <script src="js/vim.js"></script>
+        <script type="text/javascript">
+            vim.open({
+                debug : true,
+                showMsg: function(msg){
+                    alert('msg:' + msg);
+                }
+            });
+        </script>
+        <script src="js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+                controls: true,
+                slideNumber: true
+            });
+        </script>
+    </body>
+</html>
